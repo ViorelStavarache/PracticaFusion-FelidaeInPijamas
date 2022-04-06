@@ -7,6 +7,13 @@ public class Principal {
 		
 		Gato animal = new Gato("Miriam", false, 2, "Blanca");
 		animal.MandarMensaje();
+		
+		Marmota marmo = new Marmota("Haku", "Marron");
+		marmo.MandarMensaje();
+		
+		PinguinoNomadico pinguino = new PinguinoNomadico("Manuel","verde");
+		pinguino.mandarMensaje();
+
 	}
 
 }
