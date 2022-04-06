@@ -11,7 +11,7 @@ public class Principal {
 		Marmota marmo = new Marmota("Haku", "Marron");
 		marmo.MandarMensaje();
 		
-		PinguinoNomadico pinguino = new PinguinoNomadico("Manuel","verde");
+		PinguinoNomadico pinguino = new PinguinoNomadico("Manuel","verde",2);
 		pinguino.mandarMensaje();
 
 	}
