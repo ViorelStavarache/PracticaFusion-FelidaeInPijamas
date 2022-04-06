@@ -12,11 +12,9 @@ public class PinguinoNomadico extends Mascota{
 		this.color = color;
 	}
 
-	public PinguinoNomadico(String nombre, String color) {
-		super(nombre);
+	public PinguinoNomadico(String nombre, String sexo, String color) {
+		super(nombre, sexo);
 		this.color = color;
 	}
-	public void mandarMensaje() {
-		System.out.println("Hola soy " + super.getNombre() + " feo");
-	}
+
 }

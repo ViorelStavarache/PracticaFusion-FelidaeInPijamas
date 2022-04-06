@@ -5,8 +5,8 @@ public class Marmota extends Mascota{
 	private String color;
 
 
-	public Marmota(String nombre, String color) {
-		super(nombre);
+	public Marmota(String nombre, String sexo, String color) {
+		super(nombre, sexo);
 		this.color = color;
 	}
 
@@ -18,9 +18,6 @@ public class Marmota extends Mascota{
 		this.color = color;
 	}
 	
-	public void MandarMensaje() {
-		
-		System.out.println("Soy " + super.getNombre() + " y soy una marmota y me gusta dormir mucho zZzZzZzZzZzZ");
-	}
+	
 	
 }

@@ -10,8 +10,8 @@ public class Gato extends Mascota{
 
 	// Con
 	
-	public Gato(String nombre, boolean water, int eye, String color) {
-		super(nombre);
+	public Gato(String nombre, String sexo, boolean water, int eye, String color) {
+		super(nombre, sexo);
 		this.likeWater = water;
 		this.eye = eye;
 		this.color = color;
