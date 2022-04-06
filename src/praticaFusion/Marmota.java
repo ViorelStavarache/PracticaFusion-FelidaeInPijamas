@@ -1,6 +1,6 @@
 package praticaFusion;
 
-public class Marmota {
+public class Marmota extends Mascota{
 
 	private String color;
 
