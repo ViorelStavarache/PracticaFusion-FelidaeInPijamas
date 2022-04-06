@@ -2,6 +2,7 @@ package praticaFusion;
 public class Mascota {
 	
 	private String nombre;
+	private double peso;
 	public Mascota(String nombre) {
 		this.nombre = nombre;
 
@@ -15,7 +16,7 @@ public class Mascota {
 	}
 
 	public void MandarMensaje() {
-		System.out.println("Soy " + this.nombre + " y te voy a contar algo o no");
+		System.out.println("Hola equipo!, Soy " + this.nombre + " y te voy a contar algo o no");
 	}
 
 }
